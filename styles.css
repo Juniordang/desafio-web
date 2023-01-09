@@ -41,6 +41,10 @@ header#header {
 header ul > a {
     text-decoration: none;
     margin-left: 30px;
+    color: #5e5e5e;
+}
+ul > a:hover {
+    color: gray;
 }
 /* main */
 main {
