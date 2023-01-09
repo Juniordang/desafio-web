@@ -1,0 +1,146 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* fonts */
+@font-face {
+    font-family: 'inter';
+    src: url('/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* buttons */
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 13px 30px;
+    font-family: 'inter';
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #c62e47;
+}
+.btn:hover {
+    background-color: #791929;
+}
+
+body {
+    font-family: 'inter', Arial, sans-serif;
+}
+
+header#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 105px 0 40px;
+    margin-bottom: 50px;
+}
+header ul > a {
+    text-decoration: none;
+    margin-left: 30px;
+}
+/* main */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#container {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+div.hero {
+    max-width: 850px;
+}
+.hero-image > img {
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.hero-bottom {
+    display: flex;
+}
+.hero-text {
+    margin-right: 25px;
+}
+.hero-bottom > .hero-text > h1 {
+    font-size: 45px;
+    line-height: 47px;
+    font-weight: bolder;
+}
+.hero-btn {
+    margin-left: 25px;
+}
+.hero-btn > p {
+    color: gray;
+    margin-bottom: 30px;
+}
+/* article */
+article#artigo {
+    background-color: #00001a;
+    color: white;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1.novo {
+    font-size: 30px;
+    color: #ffea00;
+    margin-bottom: 20px;
+}
+.block {
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+}
+.no-border {
+    border: none;
+}
+.block > h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.block > p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+/* cards */
+.menu-cards {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.card {
+    display: flex;
+    width: auto;
+    margin-left: 35px;
+}
+.card img {
+    width: 100px;
+    height: 130px;
+    border-radius: 10px;
+}
+.card-text {
+    width: 250px;
+    margin-left: 25px;
+}
+.card h1 {
+    color: gray;
+    margin-bottom: 10px;
+}
+.card h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.card p {
+    line-height: 30px;
+    text-align: justify;   
+}
