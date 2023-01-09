@@ -7,7 +7,7 @@
 /* fonts */
 @font-face {
     font-family: 'inter';
-    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
